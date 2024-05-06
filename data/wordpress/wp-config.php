@@ -131,3 +131,11 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 /** Sets up WordPress vars and included files. */
 require_once ABSPATH . 'wp-settings.php';
+//Debugs configs
+define('WP_DEBUG', false);
+define('WP_DEBUG_LOG', true);
+define('WP_DEBUG_DISPLAY', false);
+
+@ini_set('display_errors', 1);
+@ini_set('error_reporting', E_ALL);
+set_time_limit(120);
