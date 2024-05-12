@@ -1,4 +1,5 @@
 <?php
+define( 'WP_CACHE', true ); // Boost Cache Plugin
 /**
  * The base configuration for WordPress
  *
@@ -131,6 +132,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 /** Sets up WordPress vars and included files. */
 require_once ABSPATH . 'wp-settings.php';
+
 //Debugs configs
 define('WP_DEBUG', false);
 define('WP_DEBUG_LOG', true);
