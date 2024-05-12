@@ -8,5 +8,8 @@
         "allow-plugins": {
             "phpstan/extension-installer": true
         }
+    },
+    "scripts": {
+        "phpstan": "vendor/bin/phpstan analyse -v --memory-limit=8192M"
     }
 }
