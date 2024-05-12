@@ -10,6 +10,6 @@
         }
     },
     "scripts": {
-        "phpstan": "vendor/bin/phpstan analyse -v --memory-limit=8192M"
+        "phpstan": "vendor/bin/phpstan analyse --memory-limit=8192M"
     }
 }
