@@ -1,0 +1,9 @@
+parameters:
+    level: 7 # the analysis level, from 0 (loose) to 8 (strict)
+    paths: # the paths to scan
+        - wp-content
+    ignoreErrors:
+        - wp-content/boost-cache
+        - wp-content/cache
+        - wp-content/jpcrm-storage
+        - wp-content/upgrade-temp-backup
